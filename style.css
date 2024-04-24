@@ -65,7 +65,7 @@ h1 {
     position: relative;
     font-size: 18px;
     width: 448px;
-    top: 25%;
+    top: 27%;
     left: 10%;
     color: #f9faf8;
 }
@@ -81,6 +81,23 @@ h1 {
     padding: 4px 22px;
     border-radius: 7px;
     left: 10%;
-    top: 26%;
+    top: 29%;
     cursor: pointer;
+}
+
+.placeholder-img {
+    position: relative;
+    right: 4%;
+    bottom: 15%;
+    float: right;
+    width: 525px;
+    height: 275px;
+    background-color: gray;
+}
+
+.placeholder-img p {
+    font-style: italic;
+    position: relative;
+    left: 35%;
+    top: 45%;
 }
