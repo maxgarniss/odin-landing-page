@@ -7,7 +7,7 @@
 }
 
 .top {
-    position: static;
+     position: static;
      background-color: #1f2937; 
      height: 500px;
 }
@@ -86,7 +86,8 @@ h1 {
 }
 
 .placeholder-img {
-    position: relative;
+    display: inline;
+    position: relative; /* this needs fixing, when scroll zooming it overtakes text */
     right: 4%;
     bottom: 15%;
     float: right;
@@ -100,4 +101,38 @@ h1 {
     position: relative;
     left: 35%;
     top: 45%;
+}
+
+.mid {
+    position: static; 
+    height: 500px;
+}
+
+.information-header {
+    position: relative;
+    left: 37%;
+    top: 5%;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    top: 15%;
+    padding: 8px;
+}
+
+.box {
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 170px;
+    width: 160px;
+    border: solid #2883f6 4px;
+    border-radius: 25px;
+}
+
+#image-subtext p {
+    color: red;
 }
