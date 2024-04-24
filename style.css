@@ -14,12 +14,12 @@
 
 .header-logo {
     position: relative;
-    top: 3.5%;
+    top: 5%;
     color: #f9faf8;
     font-size: 24px;
     left: 10%;
     font-weight: bold;
-    width: 12%;
+    width: 22%;
 }
 
 nav {
@@ -52,8 +52,8 @@ a {
 }
 
 h1 {
-    position: absolute;
-    top: 19%;
+    position: relative;
+    top: 25%;
     left:10%;
     color: rgb(255, 255, 255);
     width: 325px;
@@ -62,16 +62,16 @@ h1 {
 }
 
 #subtext {
+    position: relative;
     font-size: 18px;
     width: 448px;
-    position: absolute;
-    top: 35%;
+    top: 25%;
     left: 10%;
     color: #f9faf8;
 }
 
 .sign-up {
-    position: static;
+    position: relative;
     background-color: #2883f6;
     border: none;
     font-weight: bold;
@@ -81,6 +81,6 @@ h1 {
     padding: 4px 22px;
     border-radius: 7px;
     left: 10%;
-    bottom: 54%;
+    top: 26%;
     cursor: pointer;
 }
