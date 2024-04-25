@@ -110,7 +110,7 @@ h1 {
 
 .information-header {
     position: relative;
-    left: 37%;
+    left: 42%;
     top: 5%;
     font-size: 30px;
     font-weight: bolder;
@@ -124,15 +124,55 @@ h1 {
 }
 
 .box {
+    position: relative;
+    left: 1%;
     margin-top: 5%;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 2.5%;
+    margin-right: 3.5%;
     height: 170px;
     width: 160px;
     border: solid #2883f6 4px;
     border-radius: 25px;
 }
 
-#image-subtext p {
-    color: red;
+.subtext-flex-container {
+    display: flex;
+    height: 100px;
+    flex-direction: row;
+}
+#image-subtext {
+    margin-right: 16px;
+    margin-left: 25px;
+    padding: 16px;
+    position: relative;
+    border-radius: 0%;
+    text-align: center;
+    left: 20.5%;
+    font-size: 18px;
+    color: #1f2947;
+    height: 100px;
+    width: 11%;
+}
+
+.quote {
+    position: static;
+    height: 500px;
+    background-color: #e5e7eb;
+}
+
+#quote-text {
+    position: relative;
+    left: 28%;
+    top: 30%;
+    font-size: 36px;
+    font-weight: lighter;
+    width: 50%;
+    line-height: 56px;
+}
+
+#quote-author {
+    position: relative;
+    top:32%;
+    right: 25%;
+    float: right;
 }
